@@ -1,2 +1,6 @@
 git clone $PRIVATE_PACKAGE_AUTH_URL
-pnpm link private-test-package
+cd private-test-package
+npm link
+cd ..
+npm link private-test-package
+npm install
