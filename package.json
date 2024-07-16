@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "next": "14.2.5",
-    "private-test-package": "git+ssh://git@github.com:aldosch/private-test-package.git",
+    "@ALDOSCH/private-test-package": "^1.0.0",
     "react": "^18",
     "react-dom": "^18",
     "vercel": "^34.4.0"
